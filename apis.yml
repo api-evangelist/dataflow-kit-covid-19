@@ -1,0 +1,32 @@
+aid: dataflow-kit-covid-19
+name: Dataflow Kit COVID-19
+description: "COVID-19 live statistics into sites per hour"
+url: https://covid-19.dataflowkit.com
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: Dataflow Kit COVID-19
+    description: "COVID-19 live statistics into sites per hour"
+    humanURL: https://covid-19.dataflowkit.com
+    baseURL: https://covid-19.dataflowkit.com
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://covid-19.dataflowkit.com
+common:
+  - type: Website
+    url: https://covid-19.dataflowkit.com
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
