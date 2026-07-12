@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://covid-19.dataflowkit.com
 common:
+  - type: DomainSecurity
+    url: security/dataflow-kit-covid-19-domain-security.yml
   - type: Website
     url: https://covid-19.dataflowkit.com
   - type: PublicAPIsListing
